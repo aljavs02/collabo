@@ -1,0 +1,22 @@
+---
+title: "Plot (twist)"
+author: "Aleksandra Jaworska, Martyna Stalmach, Gabriela Kuczyńska"
+date: "2024-11-09"
+output: html_document
+---
+
+```{r ustawienia, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+```
+
+# Purpose
+
+This markdown was created to test the collaboration offered by GitHub tool
+
+```{r echo = FALSE}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+    geom_point(aes(color = factor(drv)))
+```
+
