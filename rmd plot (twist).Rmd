@@ -13,7 +13,7 @@ library(ggplot2)
 
 # Purpose
 
-This markdown was created to test the collaboration offered by GitHub tool
+This markdown was created to test the collaboration offered by GitHub tool. yabadoo.
 
 ```{r echo = FALSE}
 ggplot(mpg, aes(x = displ, y = hwy)) +
